@@ -8,8 +8,8 @@ public class HeapOperations {
 	{
 		int Elem[]={4,3,7,1,8,5};
 	HeapFunctions func=new HeapFunctions();
-	
-	//func.maxHeapify(Elem, i, Elem.length);
+	//max heapify
+	func.maxHeapify(Elem, 6, Elem.length);
 	System.out.println("min heap");
 	func.build_maxheap(Elem, Elem.length);
 	System.out.println("");
@@ -20,6 +20,9 @@ public class HeapOperations {
 	
 	}
 	System.out.println("");
+	//
+	
+	//min heapify
 	System.out.println("min heap");
 	func.build_minheap(Elem, Elem.length);
 	System.out.println("");
@@ -30,6 +33,9 @@ public class HeapOperations {
 		
 	}
 	System.out.println("");
+	//
+	
+	//heap sort
 	System.out.println("Heap Sort length"+ Elem.length);
 	int Elemm[]={4,3,7,1,8,5};
 	
@@ -44,6 +50,6 @@ public class HeapOperations {
 		
 	}
 	
-	
+	//
 	}
 }
